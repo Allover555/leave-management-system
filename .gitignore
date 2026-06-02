@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+target/
+backend/target/
+dist/
+frontend/dist/
+frontend/dist-ssr/
+
+# Runtime files
+uploads/
+backend/uploads/
+logs/
+*.log
+
+# Local environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local/generated materials that are not part of the source repository
+/outputs/
+/foreign_paper/
+/答辩材料/
+/论文*.docx
+/package-lock.json
